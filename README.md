@@ -1,6 +1,6 @@
 # SimpleIoT Ansible Role
 
-## Example use in a playboo
+## Example use in a playbook
 
 ```
     - name: SIOT service
