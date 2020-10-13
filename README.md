@@ -10,10 +10,10 @@
         siot_binary: siot
         siot_domain: iot.xyz.com
         siot_user: caddy2
-        siot_influx_pass: `<influxdb password>`
-        siot_twilio_sid: `<twilio sid>`
-        siot_twilio_auth_token: `<twilio auth token>`
-        siot_twilio_from: `<twilio phone #>`
+        siot_influx_pass: <influxdb password>
+        siot_twilio_sid: <twilio sid>
+        siot_twilio_auth_token: <twilio auth token>
+        siot_twilio_from: <twilio phone #>
 
 ```
 
@@ -32,4 +32,4 @@ require some customization -- pull requests are welcome.
 ## Using Caddy2 TLS certs with SimpleIoT
 
 This role can be configured to use caddy2 TLS certs for NATS by setting the user
-to caddy2.
+to `caddy2`.
